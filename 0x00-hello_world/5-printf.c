@@ -1,8 +1,10 @@
 #include<stdio.h>
 
 /**
- * main - no return
  *
+ * main - entry point
+ *
+ * Return: Alwyas 0 (succes)
  */
 int main(void)
 {
