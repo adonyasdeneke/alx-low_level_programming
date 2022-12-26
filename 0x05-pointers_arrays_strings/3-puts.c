@@ -13,7 +13,7 @@ void _puts(char *str)
 	{
 		if (*(str + counter) != '"')
 		{
-			_putchar(str + counter);
+			_putchar(*(str + counter));
 		}
 		counter++;
 	}
