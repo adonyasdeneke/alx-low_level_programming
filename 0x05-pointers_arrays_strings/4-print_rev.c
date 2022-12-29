@@ -14,10 +14,12 @@ void print_rev(char *s)
 	}
 	c2 = c1;
 	while (c1 >= 0)
+	{
 		if (*(s + c1) != '"' && c2 != c1)
 		{
 			_putchar(*(s + c1));
-			c1--;
 		}
+		c1--;
+	}
 	_putchar('\n');
 }
