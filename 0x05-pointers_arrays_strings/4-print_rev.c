@@ -14,7 +14,7 @@ void print_rev(char *s)
 	}
 	c2 = c1;
 	while (c1 >= 0)
-		if (*(s + c) != '"' && c2 != c1)
+		if (*(s + c1) != '"' && c2 != c1)
 		{
 			_putcahr(*(s + c1));
 		}
