@@ -17,6 +17,7 @@ void print_rev(char *s)
 		if (*(s + c1) != '"' && c2 != c1)
 		{
 			_putchar(*(s + c1));
+			c--;
 		}
 	_putchar('\n');
 }
